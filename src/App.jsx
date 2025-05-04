@@ -1,17 +1,30 @@
-import { useState } from 'react'
-
-import './App.css'
-import Isim from './isim'
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Switch, Route } from 'react-router-dom';
+import Header from './Order/Header.jsx';
+import Order from './Order/order.jsx';
+import Main from './Order/Main.jsx';
+import Success from './Order/success.jsx';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <> 
-    <Isim/>
-      
-    </>
-  )
+    <div className="app-container">
+      <Switch>
+        <Route path="/" exact>
+          <Main />
+        </Route>
+        
+        <Route path="/order">
+          <Header />
+          <Order />
+        </Route>
+        
+        <Route path="/success">
+          <Success />
+        </Route>
+      </Switch>
+    </div>
+  );
 }
 
-export default App
+export default App;

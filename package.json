@@ -14,9 +14,11 @@
     "@testing-library/react": "^14.1.2",
     "@testing-library/user-event": "^14.5.2",
     "axios": "^1.6.5",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "bootstrap": "^5.3.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-router-dom": "^5.2.0",
+    "reactstrap": "^9.2.3",
     "teknolojik-yemekler": "file:"
   },
   "devDependencies": {
@@ -27,6 +29,6 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
-    "vite": "^5.0.8"
+    "vite": "^6.3.4"
   }
 }
