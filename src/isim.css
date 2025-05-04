@@ -1,0 +1,447 @@
+body{
+    margin: 0;
+    padding: 0;
+  }
+  
+  header{
+    background-image: url('public/assets/iteration-1/home-banner.png');
+    width: 100%; 
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    gap: 100px;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 30px;
+  }
+  
+  .img-logo{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+  
+  .info-firsat{
+    font-family: 'Satisfy';
+    color: #FDC913;
+    margin-bottom: 0px;
+  }
+  
+  .info-pizza{
+    font-size: 4rem;
+    margin-top: 0px;
+  }
+  
+  .btn-aciktim{
+    display: flex;
+    font-family: "Barlow", cursive;
+    justify-content: center;        
+    align-items: center;
+    margin: 0;
+    background-color: #FDC913;
+    border: #FDC913;
+    border-radius: 25px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .icons{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 45px;
+  }
+  .burger-section{
+    background-color: #FAF7F2;
+    margin-bottom: 100px;
+  }
+  
+  .ozel-lezzetus{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin: 0 auto;
+  }
+  
+  .p-ozel-lezzetus{
+    display: flex;
+    padding-left: 0px;
+    font-size: 3rem;
+    color: white;
+  }
+  .p-ozel-lezzetus-position{
+    display: flex;
+    padding-bottom: 1px;
+    font-size: 1rem;
+    color: white;
+  }
+  section h2{
+    text-align: center;
+    font-family: "Satisfy";
+    color: #CE2829;
+  }
+  section h3{
+    text-align: center;
+    font-size: 30px;
+  }
+  .btn-siparis{
+    display: flex;
+    justify-content: center; 
+    border-radius: 25px;
+    width: 150px;
+    height: 50px;
+    border: white;
+    align-items: center;
+    color: #CE2829;
+  }
+  
+  .btn-siparis-ver{
+    display: flex;
+    border-radius: 25px;
+    width: 150px;
+    height: 50px;
+    border: white;
+    align-items: center;
+    color: #CE2829;
+  }
+  
+  .icon-section{
+    display: flex;
+  }
+  .li-icons {
+    display: flex; 
+    align-items: center; 
+  }
+  .lezzetus{
+    height: 20rem;
+    width: 30%;
+    padding: 20px;
+    background-image: url('public/assets/iteration-2/cta/kart-1.png');
+    background-size: cover;
+    border-radius: 25px;
+  }
+  
+  .burger{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+  .burger-menu{
+    background-image: url('public/assets/iteration-2/cta/kart-2.png');
+    background-size: cover;
+    border-radius: 25px;
+    height: 11rem;
+    width: 30%;
+    padding-right: 275px;
+    color: white;
+    
+  }
+  .burger-kurye{
+    background-image: url('public/assets/iteration-2/cta/kart-3.png');
+    background-size: cover;
+    border-radius: 25px;
+    height: 11rem;
+    width: 30%;
+    
+    padding-right: 275px;
+  }
+  .burger-menu button{
+    display: flex;
+    justify-content: center;        
+    align-items: center;
+    margin: 0;
+    background-color: white;
+    border: white;
+    color: #CE2829;
+    border-radius: 25px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .burger-menu, .burger-kurye p{
+    font-size: 1.15rem;
+    padding-left: 25px;
+  }
+  .burger-kurye button{
+    display: flex;
+    justify-content: center;        
+    align-items: center;
+    margin: 0;
+    background-color: white;
+    border: white;
+    color: #CE2829;
+    border-radius: 25px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .h-paketlenen-menuler{
+    font-weight: 100;
+  }
+  .icons2{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 45px;
+  }
+  .btn-icon{
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    border: white;
+  }
+  .btn-icon:hover{
+    background-color:  #292929;
+    color: white;
+  }
+  .section-img{
+    width: 150px;
+    height: 150px;
+  }
+  .section-pizza{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    gap: 50px;
+  }
+  .pizza{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+  }
+  .aci-pizza{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+  }
+  .tavuklu-burger{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+  }
+  
+  .derecelendirme{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  footer {
+    font-family: Arial, sans-serif;
+    background-color:  #292929;
+    color: white;
+    padding-top: 50px;
+    gap: 10px;
+  
+  }
+  .footer-iletisim{
+    display: flex;
+    gap: 50px;
+    padding-top: 10px;
+  }
+  .iletisim {
+    display: flex;
+    flex-direction: column;  /* Her bir iletişim öğesini dikeyde sıralar */
+    gap: 25px;
+  }
+  
+  .iletisim-item {
+    display: flex;  /* Yatayda hizalamayı sağlar */
+      /* İkon ve metni ortalar */
+    margin-bottom: 10px;  /* Her iletişim öğesi arasında boşluk bırakır */
+    padding-left: 50px;
+  }
+  
+  .footer-logo{
+    height: 75px;
+    width: 250px;
+  }
+  
+  .baslik{
+    display: flex;
+    padding-bottom: 25px;
+    padding-left: 50px;
+  }
+  
+  .iletisim-item img {
+    margin-right: 25px;  /* İkon ile metin arasına boşluk ekler */
+  }
+  
+  .iletisim-item p {
+    margin: 0;  /* Paragrafın varsayılan margin'ini sıfırlar */
+  }
+  
+  .hot-menu{
+    padding: 0px;
+  }
+  
+  .img-instagram{
+    width: 50%;
+  }
+  
+  @media (max-width: 600px) {
+    header{
+      background-image: url("public/assets/iteration-1/home-banner.png");
+      background-size: cover;
+      background-position: center bottom;
+    }
+    .info-firsat{
+      display: none;
+    }
+    .img-logo{
+      padding-top: 15px;
+      width: 50%;
+    }
+    .info-pizza{
+      font-size: 2.93rem;
+      padding-top: 10px;
+      padding-left: 50px;
+      padding-right: 50px;
+      margin: 0 auto;
+    }
+    .btn-aciktim{
+      padding-top: 0px;
+    }
+  
+    .icons {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 50px;
+      gap: 10px; /* Space between items */
+    }
+  
+    .li-icons {
+      width: calc(50% - 10px); /* Two items per row with a small gap */
+      list-style: none;
+      display: flex;
+      align-items: center; /* Align image and text vertically */
+      text-align: left; /* Align text to the left */
+    }
+  
+    .li-icons img {
+      max-width: 40px; /* Adjust image size */
+      height: auto;
+      margin-right: 10px; /* Space between image and text */
+    }
+  
+    p{
+      margin: 0; /* Remove default margin around p */
+    }
+    .ozel-lezzetus{
+      display: flex;
+      flex-direction: column;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    .lezzetus{
+      width: 90%;
+      height: 45%;
+      background-size: cover;
+    }
+    
+    .burger-menu{
+      background-size: cover;
+      border-radius: 25px;
+      height: 11rem;
+      width: 20%;
+      padding-right: 275px;
+      color: white;
+    } 
+    .p-ozel-lezzetus {
+      display: flex;
+      padding-bottom: 2px;
+      font-size: 1.75rem;
+      color: white; 
+    }
+    .burger-menu p{
+      display: flex;
+      padding-top: 15px;
+      padding-bottom: 2px;
+      font-size: 1.25rem;
+      color: white; 
+    }
+  
+  
+    .icons2 {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 50px;
+      gap: 10px; /* Space between items */
+    }
+  
+    .btn-icon {
+      width: calc(50% - 10px); /* Two items per row with a small gap */
+      list-style: none;
+      display: flex;
+      align-items: center; /* Align image and text vertically */
+      text-align: left; /* Align text to the left */
+    }
+  
+    .btn-icon img {
+      max-width: 40px; /* Adjust image size */
+      height: auto;
+      margin-right: 10px; /* Space between image and text */
+    }
+  
+    p{
+      margin: 0; /* Remove default margin around p */
+    }
+    .btn-icon:hover{
+      background-color:  #292929;
+      color: white;
+    }
+  
+    .section-pizza{
+      display: flex;
+      flex-direction: column;
+      padding-left: 75px;
+    }
+    .pizza, .aci-pizza, .tavuklu-burger{
+      width: 300px;
+      height: 300px;
+    }
+    .section-img{
+      padding-left: 75px;
+    }
+  
+    .footer-iletisim{
+      background-color: #292929;
+      display: flex;
+      flex-direction: column;
+    }
+    .footer-twitter {
+      color: white;
+      font-size: 15px;
+      font-family: "Barlow";
+      font-weight: 200;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .hot-menu, .instagram{
+      padding-left: 50px;
+    }
+    .img-instagram{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* Create 3 equal-width columns */
+      gap: 10px; /* Add space between the images */
+    }
+  }
